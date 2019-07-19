@@ -3,8 +3,8 @@
 // --------------------------------------------------
 
 header {
-  @include grid-row;
-  background-color: $light-gray;
+  background-color: #fff;
+  padding: 20px 0;
 
   nav {
     @include grid-column;

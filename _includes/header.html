@@ -1,6 +1,14 @@
 {% include head.html %}
 
 <header>
-<small><i>header</i></small>
-{% include components/nav-menu.html %}
+<div class="grid-x">
+	<div class="cell medium-2">
+		<a href="/"><img src="assets/img/logo-skygear.svg" class="header__logo"></a>
+	</div>
+
+	<div class="cell medium-10">
+		<div class="header__nav">{% include components/nav-menu.html %}</div>
+		
+	</div>
+</div>
 </header>

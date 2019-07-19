@@ -1,11 +1,15 @@
-- link: Home
-  url: /
+- link: Why Serverless
+  url: /whyserverless
 
-- link: Blog
-  url: /blog
+- link: Why Micro Services
+  url: /whymicroservices
 
-- link: Sample Page
-  url: /samplepage
+- link: Open Source
+  url: /opensource
 
-- link: Kitchen Sink
-  url: /kitchen-sink
+- link: Pricing
+  url: /pricing
+
+- link: Docs
+  url: /docs
+

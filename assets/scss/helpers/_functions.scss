@@ -1,3 +1,18 @@
 // --------------------------------------------------
 // Functions
 // --------------------------------------------------
+
+
+.text--light {
+	font-weight: 200;
+}
+
+.icon__check {
+	background: url(../img/icon__check.png) no-repeat;
+	background-size: 24px 24px;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
