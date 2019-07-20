@@ -32,7 +32,10 @@ header {
 	padding-top: 5px;
 }
 
+@media screen and (min-width: 64em) {
+
 .header__nav {
+
 	ul li a {
 		font-size: 14px;
 	}
@@ -40,11 +43,48 @@ header {
 
 }
 
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+	
+
+	ul.menu li a {
+		font-size: 11px;
+		padding-left: 0.32rem;
+		padding-right: 0.32rem;
+	}
+	float: right;
+
+}
+
+@media screen and (max-width: 39.9375em) {
+
+	.header__nav {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
 .header__cta {
 	padding: 10px 20px;
 	box-shadow: rgba(28,37,87,0.25) 0 0 20px;
 	background-color: #fff;
 	margin-left: 30px;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	.header__cta {
+		margin-left:0.8rem;
+		padding: 10px 14px;
+		font-size: 11px;
+	}
+
 }
 
 
