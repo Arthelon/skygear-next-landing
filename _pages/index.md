@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: index
-title: Homepage
+title: 
 ---
 
 Welcome to your new Jekyll site.
