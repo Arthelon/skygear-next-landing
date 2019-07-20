@@ -38,7 +38,7 @@ incremental:      true
 
 # Serving
 url:            ""
-baseurl:        "/_site" # does not include hostname
+baseurl:        "" # does not include hostname
 
 # Outputting
 permalink:        "/blog/:year/:title/"

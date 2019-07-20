@@ -3,7 +3,7 @@ browsersync:
   open:   false
   port:   3000
   server:
-    basedir: ""
+    basedir: "_site/"
   xip:    true
 
 clean:
