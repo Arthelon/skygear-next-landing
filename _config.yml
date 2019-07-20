@@ -1,7 +1,7 @@
 # Site settings
 language:               ""
-title:                  "Site Title"
-description:            "Site description"
+title:                  "Skygear"
+description:            "Serverless microservices framework for modern app development"
 google-verification:    ""
 
 # Handling Reading
@@ -37,8 +37,8 @@ exclude:
 incremental:      true
 
 # Serving
-# url:            ""
-# baseurl:        "" # does not include hostname
+url:            ""
+baseurl:        "/_site" # does not include hostname
 
 # Outputting
 permalink:        "/blog/:year/:title/"
