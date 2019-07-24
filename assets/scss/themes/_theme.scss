@@ -170,11 +170,12 @@ header {
 
 
 .home__hero__img {
-	height: 500px;
-	width: 100%;
-	background: url(../img/hero.png) center center no-repeat;
-	background-size: 70% auto;
-	position: relative;
+	height: 350px;
+    width: 100%;
+    background: url(../img/hero.png) top center no-repeat;
+    background-size: 70% auto;
+    position: relative;
+    margin-top: 20px;
 }
 
 @media screen and (min-width: 40em) {
