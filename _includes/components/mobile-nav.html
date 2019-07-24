@@ -1,0 +1,20 @@
+
+  <div id="mobilemenuToggle">
+   
+    <input type="checkbox" />
+    
+   
+    <span></span>
+    <span></span>
+    <span></span>
+    
+   
+    <ul id="mobilemenu">
+      <li><a href="/">Home</a></li>
+       {% for item in site.data.nav-main %}
+      <li><a href="{{ item.url }}">{{ item.link }}</a></li>
+      {% endfor %}
+     
+    </ul>
+
+  </div>
