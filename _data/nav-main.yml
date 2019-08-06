@@ -1,15 +1,6 @@
-- link: Why Serverless
-  url: /whyserverless
-
-- link: Why Micro Services
-  url: /whymicroservices
 
 - link: Open Source
-  url: /opensource
-
-- link: Pricing
-  url: /pricing
-
+  url: https://github.com/skygeario
+  
 - link: Docs
-  url: /docs
-
+  url: https://docs.skygear.io/

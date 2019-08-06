@@ -265,7 +265,21 @@ header {
 .home__content {
 	padding: 50px 0;
 	&__perks {
-		padding: 10px 0;
+		padding: 5px 0 15px;
+		display: inline-block;
+		width: 100%;
+		.icon__check {
+			display: block;
+			width: 15%;
+			float: left;
+		}
+	}
+	&__perkslabel {
+		display: block;
+		width: 70%;
+		float:left;
+		font-size: 13px;
+		
 	}
 }
 
