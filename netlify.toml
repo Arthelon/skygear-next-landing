@@ -3,6 +3,7 @@
   command = "yarn build"
   functions = "functions"
   publish = "_site"
+  NODE_VERSION = "8.16.1"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app. 
   ## Not needed for static site generators.
