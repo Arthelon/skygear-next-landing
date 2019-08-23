@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="page__container">
+
+<div class="grid-container">
+
+	<div class="grid-x grid-margin-x">
+
+		<div class="cell medium-8 small-12">
+
+			<h1>Learn More</h1>
+
+			<ul class="page__learnmore__nav">
+				<li><a href="{{ site.baseurl }}/terms" {% if page.title == "Term of Services" %}class="active"{% endif %}>Terms of Services</a></li>
+				<li><a href="{{ site.baseurl }}/promise" {% if page.title == "Our Promises" %}class="active"{% endif %}>Our Promises</a></li>
+				<li><a href="{{ site.baseurl }}/policy" {% if page.title == "Acceptable Use Policy" %}class="active"{% endif %}>Acceptable Use Policy</a></li>
+				<li><a href="{{ site.baseurl }}/data-privacy" {% if page.title == "Data Privacy Policy" %}class="active"{% endif %}>Data Privacy Policy</a></li>
+				<li><a href="{{ site.baseurl }}/sla" {% if page.title == "Skygear Hosting Service Level Agreement" %}class="active"{% endif %}>Service Level Agreement</a></li>
+				<li><a href="{{ site.baseurl }}/security" {% if page.title == "Security" %}class="active"{% endif %}>Security</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+  <div class="grid-x grid-margin-x">
+
+  	<div class="cell medium-8 small-12">
+
+				<h3 class="page__title">{{ page.title }}</h3>
+				{{ content }}
+
+	</div>
+
+  </div>
+</div>
+
+</div>

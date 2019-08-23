@@ -2,9 +2,44 @@
 // Layout page
 // --------------------------------------------------
 
+
+
+
+.page__container {
+	padding-top: 180px;
+	padding-bottom: 80px;
+
+	h5 {
+		font-weight: 600;
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+	}
+}
+
+.page__title {
+	margin-bottom: 3rem;
+}
+
+.page__date {
+	font-size: 12px;
+	color: #888;
+	margin-top: 3rem;
+}
+
+.page__learnmore__nav {
+	list-style: none;
+	margin: 4rem 0;
+
+	li a.active {
+		background-color: #fff5a1;
+	}
+}
+
+
 main {
   @include grid-row;
 
   //other elements
   //@include grid-column;
 }
+
