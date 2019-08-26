@@ -1,7 +1,7 @@
 ---
 permalink: /terms/
 layout: page-learnmore
-title:  Term of Services
+title:  Skygeario Terms of Services 
 date:   2019-08-23
 ---
 
