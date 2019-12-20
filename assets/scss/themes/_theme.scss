@@ -367,6 +367,43 @@ header {
 
 }
 
+//PRICING
+
+.pricing {
+
+	&__table {
+		padding: 20px;
+		margin-top: 120px;
+		margin-bottom: 120px;
+		background:#fff;
+		box-shadow: 0 40px 50px rgba(0,0,0,0.2);
+		border-radius: 15px;
+
+		.button {
+			width: 100%;
+			margin-top: 20px;
+			margin-bottom: 0;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			li {
+				font-size: 11px;
+				color: #666;
+				border-bottom: 1px solid #d8d8d8;
+				padding: 10px 0;
+			}
+		}
+	}
+
+	&__bg {
+		margin-top: 100px;
+		background: #0043E0;
+		width: 100%;
+	}
+}
+
 //FOOTER 
 
 .footer__cta {
