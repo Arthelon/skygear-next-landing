@@ -16,3 +16,9 @@
 	margin-right: 5px;
 	vertical-align: middle;
 }
+
+.content__valign {
+	top: 50%;
+	position: relative;
+	transform: translateY(-50%);
+}
